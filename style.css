@@ -1,0 +1,29 @@
+body{
+    background:rgb(2, 68, 31);
+}
+::placeholder{
+    color: #fff !important;
+}
+.container{
+    max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+    color:#fff;
+    border:none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+.todos li{
+    background: rgb(18, 149, 83);
+}
+form button{
+    color:#fff;
+    background: rgb(18, 149, 83);
+}
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display:none !important;
+}
